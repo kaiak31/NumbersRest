@@ -1,0 +1,24 @@
+{
+  "name": "nodeNumbers",
+  "version": "0.0.0",
+  "description": "Question: Write a node.js server that takes a number from the client , saves it, returns it based on another call, and modifies it based on a third call.  The number should be saved in RIAK.",
+  "main": "server.js",
+  "dependencies": {
+    "riak-js": "~0.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaiak31/NumbersRest.git"
+  },
+  "author": "Inshan Khairullah",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/kaiak31/NumbersRest/issues"
+  },
+  "homepage": "https://github.com/kaiak31/NumbersRest"
+}
